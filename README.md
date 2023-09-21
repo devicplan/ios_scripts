@@ -1,7 +1,7 @@
 # ios_scripts
 Scripts for IOS widgets to display data from Thingspeak
 
-Please read the PDF file, here you will find the description for the setup.
+Please read the [PDF](Add ThingSpeak Data Widgets to iOS Using Scriptable » Hans on IoT - MATLAB & Simulink.pdf) file, here you will find the description for the setup.
 
 In the file test_more.js two more parameters have to be passed for drawing the graph. Between the parameters min and max the graph will be drawn. In the original file starter_original.js the values for scaling were obtained from the supplied data. This is not advantageous for a meaningful representation.
 
