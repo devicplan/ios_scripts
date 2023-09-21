@@ -7,10 +7,10 @@ These parameters are passed separately with "|".
 
 Example:   1278463|1|results=30|0|100
 
-Channel ID
-Field
-Number of records
-Bottom line
-top line
+-Channel ID
+-Field
+-Number of records
+-Bottom line
+-top line
 
 The example represents all values in the scaling 0 to 100.
