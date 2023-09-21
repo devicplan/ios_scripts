@@ -14,3 +14,4 @@ Example:   1278463|1|results=30|0|100
 * top line
 
 The example represents all values in the scaling 0 to 100.
+The color of the graph can be changed in line 54.
