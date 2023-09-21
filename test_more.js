@@ -67,8 +67,8 @@ class LineChart {
   }
 
   _calculatePath() {
-    let maxValue = maxParams;
-    let minValue = minParams;
+    let maxValue = thingSpeakSettings.maxParams;
+    let minValue = thingSpeakSettings.minParams;
     let difference = maxValue - minValue;
     let count = this.values.length;
     let step = this.ctx.size.width / (count - 1);
