@@ -51,7 +51,7 @@ const thingSpeakSettings = {
 
 // Chart settings
 const chartSettings = {
-  color: "#0000c8",
+  color: "#46afd5",
   
   opacity: 0.6,
 };
