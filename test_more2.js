@@ -67,17 +67,19 @@ class LineChart {
   }
 
   _calculatePath() {
+    let maxValue = 0;
+    let minValue = 0;	  
     if (thingSpeakSettings.maxParams == "a")  {
-      let maxValue = Math.max(...this.values);
+      maxValue = Math.max(...this.values);
     }
     else  {
-      let maxValue = thingSpeakSettings.maxParams;
+      maxValue = thingSpeakSettings.maxParams;
     }
     if (thingSpeakSettings.minParams == "a")  {
-      let minValue = Math.min(...this.values);
+      minValue = Math.min(...this.values);
     }
     else  {
-      let minValue = thingSpeakSettings.minParams;
+      minValue = thingSpeakSettings.minParams;
     }
     let difference = maxValue - minValue;
     let count = this.values.length;
